@@ -16,8 +16,8 @@ font-family: 'Poppins', sans-serif;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: rgb(247, 223, 5);
-        background: rgba(45, 33, 33, 0.2);
+        color: rgb(250, 233, 81);
+        background: rgba(8, 8, 8, 0.2);
 
       }
 .image{
@@ -31,11 +31,12 @@ background-image: url("image/donation7.jpg");
 }
 .link-button{
     text-decoration: none;
-    background-color: rgb(218, 246, 6) ;
+    background-color: rgb(245, 55, 59) ;
     padding: 20px;
     border: 3px;
     border-radius: 10px;
-    text-decoration-color: brown;
+    text-decoration-color: rgb(236, 224, 224);
+    font-size: 20px;
 }
 
 
@@ -97,7 +98,7 @@ background-image: url("image/donation7.jpg");
     background: rgb(187, 180, 166)
 
  }
- .box,.box1, .box2 {
+ .box,.box1,.box2 {
    display: inline-block;
  }
  .contact {
@@ -107,7 +108,6 @@ background-image: url("image/donation7.jpg");
 .last{
     text-align: center;
 }
-
 #email-design{
   text-align: center;
   margin: 20px;
@@ -115,10 +115,41 @@ background-image: url("image/donation7.jpg");
   height: 50px;
   width: 20ppx;
 }
+
+
+
 #last{
     text-align: center;
     background-color: antiquewhite;
     font-style: oblique;
 }
 
+#email-section{
+        justify-content: center;
+        margin-bottom: 300px;
+    }
+
+#email-box{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-left: 400px;
+    margin-top: 40px;
+
+}
+#sub-button{
+    background-color: red;
+    padding: 15px 30px;
+    margin-left: 700px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.email-size{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
 }
